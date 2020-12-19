@@ -1,14 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Form from './components/Form';
+import ContactForm from './components/Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div >
          <h3>hi</h3>
-      </header>
-      <Form />
+      <ContactForm />
     </div>
   );
 }
