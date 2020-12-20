@@ -16,7 +16,7 @@ const ContactForm = () => {
         <div>
           <label htmlFor="firstName">First Name</label>
           <input
-            data-testid="testFirstName"
+            id="firstName"
             name="firstName"
             placeholder="Edd"
             ref={register({ required: true, maxLength: 3 })}
@@ -44,7 +44,7 @@ const ContactForm = () => {
             Email*
           </label>
           <input name="email" 
-            id="lastName"
+            id="email"
             placeholder="bluebill1049@hotmail.com"
             ref={register({ required: true })} 
           />
@@ -65,7 +65,7 @@ const ContactForm = () => {
             {JSON.stringify(data, null, 2)}
           </pre>
         )}
-        <button type="submit">Sumit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
